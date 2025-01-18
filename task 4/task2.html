@@ -4,35 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        table ,td{
-            border-collapse: collapse;
-            width: 50%;
-            height: 70%;
-        }
-        td{
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-            width: 50%;
-            height: 70%;
-        }
-        caption{
-            font-weight: bold;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
-    <table>
-        <caption>Drinks Table</caption>
-        <tr>
-            <td colspan="2">Drinks</td>
-        </tr>
-        <tr>
-            <td>Coffe</td>
-            <td>Tea</td>
-        </tr>
+    
+    <table style="border: 1px solid black; padding: 20px; width: 50px;">
+        <caption style="text-align: left;">Drinks Table</caption>
+        <thead>
+            <th colspan="2" style="border: 1px solid black; text-align: center;width: 15px;padding: 20px">Drinks</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td style="border: 1px solid black; text-align: center; width: 15px;padding: 20px;">Coffee</td>
+                <td style="border: 1px solid black; text-align: center;padding: 20px;">Tea</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
